@@ -1,16 +1,171 @@
-# React + Vite
+🍲 Akpu4All – E-Commerce Restaurant Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Akpu4All is a fully functional, responsive E-commerce restaurant web application built with React.js, HTML, and Tailwind CSS.
+It allows users to browse Nigerian swallows and local delicacies, add items to cart, and place orders seamlessly.
 
-Currently, two official plugins are available:
+🚀 Live Concept
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern restaurant ordering platform inspired by Uber Eats but branded for Akpu4All — delivering fresh Nigerian swallows anytime, anywhere.
 
-## React Compiler
+🛠 Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+⚛ React.js (Functional Components & Hooks)
 
-## Expanding the ESLint configuration
+🎨 Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 HTML5
+
+🔄 React Router DOM
+
+🛒 Context API for state management
+
+💾 localStorage for cart persistence
+
+✨ Features
+🏠 Home Page
+
+Hero section with branding
+
+Catchy slogan: “Fresh Swallow, Anytime, Anywhere”
+
+Featured meals
+
+Testimonials
+
+Responsive footer
+
+📋 Menu Page
+
+Card layout for meals
+
+Food image
+
+Name & description
+
+Price (₦ currency)
+
+Add to Cart functionality
+
+Search filter
+
+Category filtering (Swallow, Soups, Drinks)
+
+🛒 Cart Page
+
+View selected items
+
+Increase/decrease quantity
+
+Remove items
+
+Auto total calculation
+
+Persistent cart using localStorage
+
+💳 Checkout Page
+
+Customer details form
+
+Payment method selection (Pay on Delivery / Card)
+
+Order summary
+
+Place order functionality
+
+📂 Project Structure
+akpu4all/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── FoodCard.jsx
+│   │   └── CartItem.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Menu.jsx
+│   │   ├── Cart.jsx
+│   │   └── Checkout.jsx
+│   │
+│   ├── context/
+│   │   └── CartContext.jsx
+│   │
+│   ├── data/
+│   │   └── meals.js
+│   │
+│   ├── App.js
+│   └── main.jsx / index.js
+│
+├── tailwind.config.js
+├── package.json
+└── README.md
+
+⚙ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/akpu4all.git
+cd akpu4all
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+Add Tailwind to your index.css:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+4️⃣ Start development server
+npm start
+
+🎨 Design Theme
+
+Warm African color palette
+
+Orange, brown, deep green accents
+
+Rounded cards
+
+Soft shadows
+
+Clean and modern typography
+
+📦 Future Improvements
+
+🔐 Authentication system
+
+💳 Real payment gateway integration (Stripe / Flutterwave)
+
+📊 Admin dashboard
+
+📱 PWA support
+
+🗄 Backend integration (Node.js + MongoDB)
+
+📸 Sample Menu Items
+
+Pounded Yam & Egusi
+
+Eba & Ogbono
+
+Semovita & Okra
+
+Amala & Ewedu
+
+Fufu & Afang
+
+👨‍💻 Author
+
+Hosea Ozeal
+Full stack web developer residing in Abuja, Nigeria 🚀
+
+📄 License
+
+This project is open-source and available under the MIT License.
