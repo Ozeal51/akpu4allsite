@@ -14,6 +14,7 @@
     "react-router-dom": "^6.22.1",
     "react-hot-toast": "^2.4.1"
   },
+  "homepage": "https://Ozeal51.github.io/akpu4allsite",
   "devDependencies": {
     "vite": "^5.0.0",
     "tailwindcss": "^3.4.1",

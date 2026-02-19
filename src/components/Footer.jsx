@@ -1,10 +1,11 @@
+import { asset } from "../utils/assets"
 export default function Footer() {
   return (
     <footer className="border-t border-brown-600/10 bg-white">
       <div className="max-w-6xl mx-auto px-4 py-10 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2">
-            <img src="/logo.svg" alt="Akpu4All" className="w-8 h-8 rounded-lg" />
+            <img src={asset("logo.svg")} alt="Akpu4All" className="w-8 h-8 rounded-lg" />
             <span className="font-bold text-deepgreen-700 text-lg">Akpu4All</span>
           </div>
           <p className="text-sm text-brown-700 mt-3">

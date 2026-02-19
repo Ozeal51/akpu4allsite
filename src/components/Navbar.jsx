@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import { useCart } from "../context/CartContext"
+import { asset } from "../utils/assets"
 
 export default function Navbar() {
   const { items } = useCart()
@@ -9,7 +10,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-brown-600/10">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/logo.svg" alt="Akpu4All" className="w-8 h-8 rounded-lg" />
+          <img src={asset("logo.svg")} alt="Akpu4All" className="w-8 h-8 rounded-lg" />
           <span className="font-bold text-deepgreen-700 text-lg">Akpu4All</span>
         </Link>
         <nav className="flex items-center gap-6">
