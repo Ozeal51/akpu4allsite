@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+
 import { Toaster } from "react-hot-toast"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
@@ -8,6 +8,7 @@ import Cart from "./pages/Cart"
 import Checkout from "./pages/Checkout"
 import Admin from "./pages/Admin"
 import { CartProvider } from "./context/CartContext"
+import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
